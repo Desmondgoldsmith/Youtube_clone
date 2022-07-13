@@ -1,10 +1,23 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
+import Header from './components/header/header';
+import Sidebar from './components/sidebar/sidebar';
+// import Video from './components/Video/Video';
+import Homescreen from './screens/homescreen/Homescreen';
+import './app.scss';
 
 const App = () => {
     return(
-        <React.Fragment>
-            <h1>Hello this is my youtube clone</h1>
-        </React.Fragment>
+        <>
+          <Header />
+          <div className='app__container'>
+          <Sidebar />
+          <Container fluid className="app_main">
+            <Homescreen />
+          </Container>
+          </div>
+         
+         </>
     )
 }
 
