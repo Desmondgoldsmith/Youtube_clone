@@ -7,9 +7,8 @@ function Sidebar() {
         <h1>Sidebar goes here</h1>
         <SidebarRow title = "Home"/>
         <SidebarRow title = "Trending"/>
-        <SidebarRow/>
-        <SidebarRow/>
-        <SidebarRow/>
+        <SidebarRow title = "Subscription"/>
+        
     </div>
   )
 }
