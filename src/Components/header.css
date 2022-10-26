@@ -1,0 +1,55 @@
+.logo > img{
+    height: 25px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.left_section >img{
+    width: 38px;
+}
+.left_section {
+ align-items: center;
+ display: flex; 
+}
+
+.all{
+    width: 40%;
+    border: 1px solid black;
+    height: 30px;
+}
+.all > input{
+    height: 28px;
+    flex: 1;
+    border: none;
+}
+
+.searchButton{
+    width: 40px!important;
+    height: 28px!important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color:gray
+}
+
+.left_side_icon{
+    margin-right: 10px;
+} 
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    background-color: #fff;
+}
+
+.all{
+    display: flex;
+}
+.search {
+    display: flex;
+}
