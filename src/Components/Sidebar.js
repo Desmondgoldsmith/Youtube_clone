@@ -8,6 +8,8 @@ import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
 import HistoryIcon from '@mui/icons-material/History';
 import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import WatchLaterIcon from '@mui/icons-material/WatchLater';
+import ThumbUpIcon from '@mui/icons-material/ThumbUp';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 function Sidebar() {
   return (
     <div className={'sidebar'}>
@@ -15,12 +17,12 @@ function Sidebar() {
         <SidebarRow Icon={<VideoCameraBackIcon/>} title = "Shorts"/>
         <SidebarRow Icon = {<SubscriptionsIcon/>} title = "Subscription"/>
         <hr/>
-        <SidebarRow selected Icon={<VideoLibraryIcon/>} title = "Home" className = "main" />
-        <SidebarRow Icon={<HistoryIcon/>} title = "Shorts"/>
-        <SidebarRow Icon = {<OndemandVideoIcon/>} title = "Subscription"/>
-        <SidebarRow Icon = {<WatchLaterIcon/>} title = "Subscription"/>
-        <SidebarRow Icon = {<SubscriptionsIcon/>} title = "Subscription"/>
-        <SidebarRow Icon = {<SubscriptionsIcon/>} title = "Subscription"/>
+        <SidebarRow selected Icon={<VideoLibraryIcon/>} title = "Library" className = "main" />
+        <SidebarRow Icon={<HistoryIcon/>} title = "History"/>
+        <SidebarRow Icon = {<OndemandVideoIcon/>} title = "Your video"/>
+        <SidebarRow Icon = {<WatchLaterIcon/>} title = "Watch later"/>
+        <SidebarRow Icon = {<ThumbUpIcon/>} title = "Liked videos"/>
+        <SidebarRow Icon = {<ExpandMoreIcon/>} title = "Show more"/>
         <hr/>
     </div>
   )
