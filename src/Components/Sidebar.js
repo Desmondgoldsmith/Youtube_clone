@@ -10,7 +10,7 @@ function Sidebar() {
         <SidebarRow selected Icon={<HomeIcon/>} title = "Home" className = "main" />
         <SidebarRow Icon={<VideoCameraBackIcon/>} title = "Shorts"/>
         <SidebarRow Icon = {<SubscriptionsIcon/>} title = "Subscription"/>
-        
+        <hr/>
     </div>
   )
 }
