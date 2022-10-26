@@ -1,4 +1,5 @@
 import React from 'react'
+import './recommendation.css'
 
 function Vid_Recommendation() {
   return (
