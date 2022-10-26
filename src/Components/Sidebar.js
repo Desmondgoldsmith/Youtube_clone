@@ -1,13 +1,13 @@
 import React from 'react'
 import './sidebar.css'
 import SidebarRow from './SidebarRow'
+import HomeIcon from '@mui/icons-material/Home';
 
 
 function Sidebar() {
   return (
     <div className='sidebar'>
-        <h1>Sidebar goes here</h1>
-        <SidebarRow title = "Home"/>
+        <SidebarRow icon={<HomeIcon/>} title = "Home"/>
         <SidebarRow title = "Trending"/>
         <SidebarRow title = "Subscription"/>
         
