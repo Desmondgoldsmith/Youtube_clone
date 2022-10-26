@@ -31,6 +31,12 @@
     border: none;
     border-radius: 20px 0px 0px 20px ;
 }
+.all:focus-within{
+    width: 50%;
+    background-color: #000000;
+    align-items: center;
+}
+
 
 .searchButton{
     width: 40px!important;

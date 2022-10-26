@@ -15,6 +15,7 @@ function Header() {
      </div>
 
      <div className="all">
+        <SearchIcon className = ''/>
                 <input type="text" placeholder='Search'/>
          <SearchIcon className = 'searchButton'/>
 </div>
@@ -25,7 +26,7 @@ function Header() {
             <AppsIcon className='left_side_icon' />
             <VideoCallIcon className='left_side_icon'/>
             <NotificationsIcon className='left_side_icon'/>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Circle-icons-profile.svg" className='user_image'></img>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Circle-icons-profile.svg" alt = 'user image' className='user_image'></img>
 
         </div>          
           {/* <h1>Hello this is the header</h1> */}
