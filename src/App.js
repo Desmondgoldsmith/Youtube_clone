@@ -1,6 +1,8 @@
 import './App.css';
 import Header from './Components/Header';
 import Sidebar from './Components/Sidebar';
+import Vid_Recommendation from './Components/Vid_Recommendation';
+
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <div className='side_section'>
         {/* sidebar */}
       <Sidebar />
+      <Vid_Recommendation />
 
       </div>
       
