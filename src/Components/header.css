@@ -20,20 +20,25 @@
 .all{
     width: 40%;
     border: 1px solid black;
-    height: 30px;
+    height: 50px;
+    border-radius: 20px;
+    /* border: 2px solid red; */
+    
 }
 .all > input{
-    height: 28px;
+    height: 46px;
     flex: 1;
     border: none;
+    border-radius: 20px 0px 0px 20px ;
 }
 
 .searchButton{
     width: 40px!important;
-    height: 28px!important;
+    height: 45.5px!important;
     background-color: #fafafa;
     border-left: 1px solid lightgray;
-    color:gray
+    color:gray;
+    border-radius: 0px 20px 20px 0px;
 }
 
 .left_side_icon{
