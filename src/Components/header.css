@@ -39,6 +39,7 @@
     border-left: 1px solid lightgray;
     color:gray;
     border-radius: 0px 20px 20px 0px;
+    cursor: pointer;
 }
 
 .left_side_icon{
