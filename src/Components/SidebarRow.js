@@ -1,8 +1,8 @@
 import React from 'react'
 
-function SidebarRow() {
+function SidebarRow({title}) {
   return (
-    <div>SidebarRow</div>
+    <h3>{title}</h3>
   )
 }
 
