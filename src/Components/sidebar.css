@@ -31,10 +31,10 @@
 }
 
 .side_row > .selected{
+    background-color: lightgray;
+}
+.side_row .selected > .side_icon{
     color: red;
-
 }
 
-.main{
-    background-color: lightgray;  
-}
+
