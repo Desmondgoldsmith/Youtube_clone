@@ -1,8 +1,8 @@
 import React from 'react'
 
-function SidebarRow({title}) {
+function SidebarRow({icon,title}) {
   return (
-    <h3>{title}</h3>
+    <h3>{icon}{title}</h3>
   )
 }
 
