@@ -1,5 +1,7 @@
 .sidebar{
     flex: 0.25;
+    background-color: #171717;
+    color: #fff;
 }
 
 .side_row{
