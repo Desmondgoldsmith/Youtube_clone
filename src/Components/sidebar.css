@@ -26,3 +26,10 @@
 .sidebar :hover > .side_icon{
    color: red;
 }
+.sidebar :hover > .side_text{
+   font-weight: bolder;
+}
+
+.side_row > .selected{
+    color: red;
+}

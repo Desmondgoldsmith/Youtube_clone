@@ -7,7 +7,7 @@ import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
 function Sidebar() {
   return (
     <div className='sidebar'>
-        <SidebarRow Icon={<HomeIcon/>} title = "Home"/>
+        <SidebarRow selected Icon={<HomeIcon/>} title = "Home"/>
         <SidebarRow Icon={<VideoCameraBackIcon/>} title = "Shorts"/>
         <SidebarRow Icon = {<SubscriptionsIcon/>} title = "Subscription"/>
         
