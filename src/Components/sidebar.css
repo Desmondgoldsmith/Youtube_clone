@@ -32,4 +32,9 @@
 
 .side_row > .selected{
     color: red;
+
+}
+
+.main{
+    background-color: lightgray;  
 }
