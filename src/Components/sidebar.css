@@ -15,10 +15,6 @@
     font-weight: 500;
 }
 
-
-
-
-
 .sidebar :hover{
     background-color: lightgray;
     cursor: pointer;
@@ -35,6 +31,13 @@
 }
 .side_row .selected > .side_icon{
     color: red;
+}
+
+.sidebar > hr{
+    background-color: lightgray;
+    height: 1px;
+    margin-top: 10px 10px;
+    border: 0;
 }
 
 
