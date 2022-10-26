@@ -7,9 +7,12 @@ function App() {
     <div className="App">
       {/* header section */}
       <Header />
-      {/* sidebar */}
+      <div className='side_section'>
+        {/* sidebar */}
       <Sidebar />
 
+      </div>
+      
     </div>
   );
 }
