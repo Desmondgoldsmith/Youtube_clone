@@ -11,7 +11,7 @@ function Header() {
     <div className = 'header'>
      <div className='logo'>
      <MenuIcon />
-     <img src = "https://www.logo.wine/a/logo/YouTube/YouTube-White-Full-Color-Dark-Background-Logo.wine.svg" alt='youtube logo'/>
+     <img src = "./youtube-logo-removebg-preview.png" alt='youtube logo'/>
      </div>
 
      <div className="all">

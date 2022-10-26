@@ -1,9 +1,14 @@
 .logo > img{
-    height: 25px;
+    /* height: 25px; */
+    width: 100px;
     object-fit: contain;
     margin-left: 20px;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+}
 .left_section >img{
     width: 38px;
 }
