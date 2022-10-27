@@ -6,10 +6,13 @@ import {BrowserRouter ,  Routes , Route} from "react-router-dom"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App">  
+        <Header />
      <BrowserRouter>
       <Routes>
-        <Route path = "/" element = {<h1>Home</h1>} />
+        <Route path = "/" element = {<>
+        <h1>Home</h1>
+        </>} />
         <Route path = "/search" element = {<h1>Search</h1>} />
       </Routes>
      </BrowserRouter>
