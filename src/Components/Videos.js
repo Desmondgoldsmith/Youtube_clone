@@ -1,5 +1,6 @@
 import { Avatar } from '@mui/material'
 import React from 'react'
+import { deepOrange, deepPurple } from '@mui/material/colors';
 import './video.css'
 
 function Videos({image,title,channel,time,views,timeStamp,ch_image}) {
@@ -8,6 +9,7 @@ function Videos({image,title,channel,time,views,timeStamp,ch_image}) {
       <img src={image} alt = "video" />
       <div className='video_content'>
         <Avatar className = "video_avatar"
+        sx={{ bgcolor: deepOrange[500] }}
          alt = {channel}
          src = {ch_image}
         >{channel}

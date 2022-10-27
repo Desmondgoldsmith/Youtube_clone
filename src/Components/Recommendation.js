@@ -1,6 +1,8 @@
 import React from 'react'
 import './recommendation.css'
 import Videos from './Videos'
+import { deepOrange, deepPurple } from '@mui/material/colors';
+
 
 function Recommendation() {
   return (
@@ -15,15 +17,15 @@ function Recommendation() {
         channel = "CNN"
         ch_image = ""
        />
-        {/* <Videos 
-          title = "How Russia's ‘kamikaze’ drones are changing the Ukraine war -....."
-        views = ""
-        timeStamp = ""
-        image = ""
-        channel = ""
+         <Videos 
+          title = "Make money without coding ..... What you are Not being told !"
+        views = "821k views"
+        timeStamp = "7 months ago"
+        image = "https://raw.githubusercontent.com/Desmondgoldsmith/Youtube_clone/main/public/vid%203.png"
+        channel = "Dorian Develops"
         ch_image = ""
         />
-        <Videos 
+        {/*<Videos 
           title = "How Russia's ‘kamikaze’ drones are changing the Ukraine war -....."
         views = ""
         timeStamp = ""
