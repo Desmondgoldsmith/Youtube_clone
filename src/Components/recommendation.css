@@ -5,19 +5,15 @@
     font-family: "Roboto","Arial",sans-serif;
 
 }
+.video_recommendations{
+    display: flex;
+    flex-wrap: wrap !important;
+}
+
+
 
 .rec >h2{
     margin: 20px;
 }
 
-.video_recommendations{
-    display: flex;
-    flex-wrap: wrap;
-    /* transition: transform 300ms ease-in; */
-}
 
-/* .video_recommendations  :hover{
-    transform: scale(1.2);
-    border: 3px solid lime;
-
-} */
