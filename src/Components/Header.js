@@ -14,7 +14,7 @@ function Header() {
      <div className='logo'>
      <MenuIcon />
      <Link to="/">
-           <img className='yt_logo' src = "./youtube-logo-removebg-preview.png" alt='youtube logo'/>
+           <img className='yt_logo' src = "https://raw.githubusercontent.com/Desmondgoldsmith/Youtube_clone/main/public/youtube-logo-removebg-preview.png" alt='youtube logo'/>
      </Link>
      </div>
 
