@@ -1,21 +1,28 @@
 .posts{
     display: flex;
+    font-family: "Roboto","Arial",sans-serif;
+
 }
 
 .content > p > img{
     border-radius: 50%;
     width: 40px;
+    object-fit: contain;
 }
 .content >p{
     display: flex;
     align-items: center;
+    color: #aaa;
+    font-family: "Roboto","Arial",sans-serif;
+
 }
 .content{
-    margin: 20px ;
+    margin: 0px 0px 0px 20px ;
 }
 
-.content > .tag{
-    padding: 10px;
+.content > p >.tag{
+    padding: 8px;
     background-color: #1c1c1c;
-    border-radius: 5px;
+    border-radius: 8px;
+    color: #aaa
 }

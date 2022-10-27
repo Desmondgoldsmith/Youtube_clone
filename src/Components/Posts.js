@@ -12,7 +12,7 @@ function Posts({title,keyword,views,timeStamp,image,name,tag,mainPic}) {
        <h3>{keyword}</h3>
        <p>{views}⋅{timeStamp}</p>
        <p><img src={image}/>{name}</p>
-       <span className = "tag">{tag}</span>
+       <p><span className = "tag">{tag}</span></p>
 </div>   
  </div>
   )
