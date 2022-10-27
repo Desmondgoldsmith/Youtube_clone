@@ -7,9 +7,11 @@ function Searchpage() {
     <div className = "searchpage">
      <div className='filter'>
       <TuneIcon  className='filter_icon'/>
-      Filters
-      <hr/>
-     </div>
+      <p>Filters</p>
+     </div>  
+
+     <hr/>
+
      <div className='profile_details'>
        <div className='profile_pic'>
        <img src='https://avatars.githubusercontent.com/u/62439177?s=400&u=4704bfad486fcb109ed0792b728093bdc647372c&v=4' alt='profile'/>
@@ -20,6 +22,10 @@ function Searchpage() {
             <p>Official Youtube Account</p>
         </div>
 
+     </div>
+     <hr/>
+     <div className='posts'>
+        
      </div>
     </div>
   )
