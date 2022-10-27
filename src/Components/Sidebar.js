@@ -12,7 +12,7 @@ import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 function Sidebar() {
   return (
-    <div className={'sidebar'}>
+    <div className='sidebar'>
         <SidebarRow selected Icon={<HomeIcon/>} title = "Home" className = "main" />
         <SidebarRow Icon={<VideoCameraBackIcon/>} title = "Shorts"/>
         <SidebarRow Icon = {<SubscriptionsIcon/>} title = "Subscription"/>

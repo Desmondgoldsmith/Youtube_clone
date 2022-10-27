@@ -15,3 +15,15 @@
 .video_avatar{
     margin-right: 5px;
 }
+
+.video_text >h4{
+    font-family: "Roboto","Arial",sans-serif;
+    font-weight: 500;
+    color: #f1f1f1;
+}
+.video_text >p{
+    font-family: "Roboto","Arial",sans-serif;
+    color: #aaa;
+    font-size: 15px;
+    font-weight: lighter;
+}

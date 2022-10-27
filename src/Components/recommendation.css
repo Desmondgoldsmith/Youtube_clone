@@ -2,6 +2,8 @@
     flex: 0.75;
     background-color: #000;
     color: #fff;
+    font-family: "Roboto","Arial",sans-serif;
+
 }
 
 .rec >h2{
@@ -11,5 +13,6 @@
 .video_recommendations{
     display: flex;
     flex-wrap: wrap;
+    
     /* justify-content: center; */
 }

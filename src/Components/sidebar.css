@@ -1,7 +1,9 @@
 .sidebar{
     flex: 0.25;
     background-color: #000000;
-    color: #fff;
+    color: #f1f1f1;
+    font-family: "Roboto","Arial",sans-serif;
+    font-weight: lighter;
 }
 
 .side_row{
@@ -37,10 +39,11 @@
 }
 
 .sidebar > hr{
-    background-color: lightgray;
+    background-color: rgb(36, 36, 36);
     height: 1px;
     margin-top: 10px 10px;
     border: 0;
+    width: 200px;
 }
 
 
