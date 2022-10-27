@@ -11,11 +11,11 @@ function Recommendation() {
         title = "Russian mercenaries build massive anti-tank defence"
         views = "1.8 million"
         timeStamp = "4 days ago"
-        image = ""
+        image = "https://raw.githubusercontent.com/Desmondgoldsmith/Youtube_clone/main/public/vid1.png"
         channel = "CNN"
         ch_image = ""
        />
-        <Videos 
+        {/* <Videos 
           title = "How Russia's ‘kamikaze’ drones are changing the Ukraine war -....."
         views = ""
         timeStamp = ""
@@ -38,7 +38,7 @@ function Recommendation() {
         channel = ""
         ch_image = "" 
 
-        />
+        /> */}
         {/* <Videos title = "How Russia's ‘kamikaze’ drones are changing the Ukraine war -....."
         views = ""
         timeStamp = ""

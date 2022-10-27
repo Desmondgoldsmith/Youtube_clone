@@ -1,0 +1,12 @@
+.Videos{
+    width: 280px;
+    /* border: 2px solid blue; */
+}
+
+.video_content{
+    display: flex;
+    padding: 10px;
+}
+.video_avatar{
+    margin-right: 5px;
+}
