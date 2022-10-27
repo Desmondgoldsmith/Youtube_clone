@@ -30,11 +30,16 @@
     flex: 1;
     border: none;
     border-radius: 20px 0px 0px 20px ;
+    outline:none ;
+
 }
 .all:focus-within{
     width: 50%;
-    background-color: #000000;
+    background-color: #fff;
+    color: #000000;
     align-items: center;
+    border:1px solid rgb(4, 100, 255) ;
+
 }
 
 
