@@ -21,8 +21,10 @@
 }
 
 .sidebar :hover{
-    background-color: lightgray;
+    background-color: rgb(19, 19, 19);
     cursor: pointer;
+    border-radius: 5px;
+    width: 200px;
 }
 .sidebar :hover > .side_icon{
    color: red;
