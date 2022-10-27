@@ -2,8 +2,7 @@ import React from 'react'
 import './recommendation.css'
 import Videos from './Videos'
 import { deepOrange, deepPurple } from '@mui/material/colors';
-import { Carousel } from '@trendyol-js/react-carousel';
-import Carouselitem from './Carouselitem';
+
 
 function Recommendation() {
   return (
