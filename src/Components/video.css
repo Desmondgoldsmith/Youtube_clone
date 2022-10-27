@@ -4,11 +4,12 @@
     border-radius: 10px;
     border: 1px solid rgb(13, 13, 13);
     object-fit: contain;
-    transition: transform 800ms ease-in;
+    cursor: pointer;
+    /* transition: transform 800ms ease-in; */
 }
 
 .Videos :hover{
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
 
 
 }
@@ -16,6 +17,7 @@
 .video_content{
     display: flex;
     padding: 10px;
+    cursor: pointer;
 }
 .video_avatar{
     margin-right: 5px;

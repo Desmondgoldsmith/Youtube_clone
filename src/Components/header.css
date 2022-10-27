@@ -3,6 +3,8 @@
     width: 110px;
     object-fit: contain;
     margin-left: 10px;
+    cursor: pointer;
+
 }
 
 .logo{
