@@ -58,11 +58,11 @@ function Recommendation() {
 
         />
         <Videos 
-          title = "How Russia's ‘kamikaze’ drones are changing the Ukraine war -....."
-        views = ""
-        timeStamp = ""
-        image = ""
-        channel = ""
+          title = "I asked MICROSOFT employees how much they MAKE..."
+        views = "278k views"
+        timeStamp = "1 month ago"
+        image = "https://raw.githubusercontent.com/Desmondgoldsmith/Youtube_clone/main/public/vid7.png"
+        channel = "Jason Goddison"
         ch_image = ""
         /> 
     </div>
