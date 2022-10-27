@@ -1,0 +1,12 @@
+.posts{
+    display: flex;
+}
+
+.content > p > img{
+    border-radius: 50%;
+    width: 40px;
+}
+.content >p{
+    display: flex;
+    align-items: center;
+}

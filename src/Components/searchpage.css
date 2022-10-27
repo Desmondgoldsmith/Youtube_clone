@@ -68,3 +68,7 @@
 .subscribe{
     flex: 0.3;
 }
+
+.searchpage > h4{
+    margin: 20px;
+}
