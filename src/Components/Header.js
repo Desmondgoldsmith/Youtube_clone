@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './header.css';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
@@ -7,6 +7,7 @@ import VideoCallIcon from '@mui/icons-material/VideoCall';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import AppsIcon from '@mui/icons-material/Apps';
 function Header() {
+  const [search,setSearch] = useState("");
   return (
     <div className = 'header'>
      <div className='logo'>
@@ -16,7 +17,7 @@ function Header() {
 
      <div className="all">
         <SearchIcon className = 'extra_search'/>
-                <input type="text" placeholder='Search'/>
+                <input type="text" value={search} placeholder='Search'/>
          <SearchIcon className = 'searchButton'/>
 </div>
      
