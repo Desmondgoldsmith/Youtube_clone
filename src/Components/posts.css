@@ -2,6 +2,7 @@
     display: flex;
     font-family: "Roboto","Arial",sans-serif;
     margin: 20px;
+    max-width: 700px;
 }
 
 .content > p > img{
@@ -29,7 +30,8 @@
 
 .image > img{
     object-fit: contain;
-    height: 180px;
+    height: 138px;
+    width: 246px;
 }
 
 .content > h2{

@@ -9,6 +9,7 @@
     margin: 15px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .filter_icon {
@@ -61,12 +62,12 @@
     flex: 0.2;
 }
 .details{
-    flex: 0.5;
+    flex: 0.4;
 
 }
 
 .subscribe{
-    flex: 0.3;
+    flex: 0.2;
 }
 
 .searchpage > h4{

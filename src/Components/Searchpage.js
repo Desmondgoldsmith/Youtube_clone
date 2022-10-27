@@ -71,6 +71,16 @@ function Searchpage() {
         tag = "New"
         mainPic = "https://raw.githubusercontent.com/Desmondgoldsmith/Youtube_clone/main/public/vid4.png"
        />
+       <Posts 
+        title = "The best AWS project to get you hired !"
+        keyword = "#POST"
+        views = "1K Views"
+        timeStamp = "4 Months ago"
+        image = "https://avatars.githubusercontent.com/u/62439177?s=400&u=4704bfad486fcb109ed0792b728093bdc647372c&v=4"
+        name = "Desmond Goldsmith"
+        tag = "old"
+        mainPic = "https://raw.githubusercontent.com/Desmondgoldsmith/Youtube_clone/main/public/vid5.png"
+       />
      </div>
     </div>
   )

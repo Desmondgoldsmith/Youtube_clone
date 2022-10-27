@@ -34,7 +34,6 @@ function Header() {
             <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Circle-icons-profile.svg" alt = 'user' className='user_image'></img>
 
         </div>          
-          {/* <h1>Hello this is the header</h1> */}
         </div>
    
   )
