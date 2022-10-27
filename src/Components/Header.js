@@ -21,7 +21,9 @@ function Header() {
      <div className="all">
         <SearchIcon className = 'extra_search'/>
                 <input type="text" onChange={e=>setSearch(e.target.value)} value={search} placeholder='Search'/>
-         <SearchIcon className = 'searchButton'/>
+         <Link to={`/search/${search}`}>
+              <SearchIcon className = 'searchButton'/>
+          </Link>
 </div>
      
     {/* icons left section */}
