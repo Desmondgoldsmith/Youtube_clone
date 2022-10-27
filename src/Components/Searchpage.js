@@ -1,6 +1,7 @@
 import React from 'react'
 import './searchpage.css'
 import TuneIcon from '@mui/icons-material/Tune';
+import Posts from './Posts';
 
 function Searchpage() {
   return (
@@ -28,7 +29,7 @@ function Searchpage() {
      </div>
      <hr/>
      <div className='posts'>
-
+       <Posts />
      </div>
     </div>
   )
