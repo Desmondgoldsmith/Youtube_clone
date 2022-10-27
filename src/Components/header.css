@@ -30,7 +30,7 @@
     border: none;
     border-radius: 20px 0px 0px 20px ;
     outline:none ;
-    background-color: #000000;
+    background-color: rgb(15, 15, 15);
     color: #fafafa;
     padding-left: 2px;
     font-size: 15px;
@@ -44,7 +44,7 @@
 }
 .all:focus-within{
     width: 50%;
-    background-color: #000000;
+    background-color: rgb(15, 15, 15);
     color: #fafafa;
     align-items: center;
     border:1px solid rgb(4, 100, 255) ;
@@ -76,9 +76,10 @@
 .searchButton{
     width: 70px!important;
     height: 45.9px!important;
-    background-color: #181717;
+    background-color: rgb(26, 26, 26);
     border-left: 1px #1c1c1c;
-    color:gray;
+    color:rgb(237, 237, 237);
+    font-weight: lighter!important;
     border-radius: 0px 20px 20px 0px;
     cursor: pointer; 
 }
@@ -102,7 +103,7 @@
     top:0;
     z-index: 100;
     background-color: rgb(13, 13, 13);
-    color: #fff;
+    color: rgb(237, 237, 237);
 }
 
 .all{
