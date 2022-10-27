@@ -6,6 +6,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import VideoCallIcon from '@mui/icons-material/VideoCall';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import AppsIcon from '@mui/icons-material/Apps';
+import { Link } from 'react-router-dom';
 function Header() {
   const [search,setSearch] = useState("");
   return (
@@ -18,7 +19,9 @@ function Header() {
      <div className="all">
         <SearchIcon className = 'extra_search'/>
                 <input type="text" onChange={e => setSearch(e.target.value)} value={search} placeholder='Search'/>
+         <Link to={`/search/${search}`} relative="path">
          <SearchIcon className = 'searchButton'/>
+    </Link>        
 </div>
      
     {/* icons left section */}
