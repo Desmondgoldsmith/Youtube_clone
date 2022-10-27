@@ -15,7 +15,7 @@ function Videos({image,title,channel,time,views,timeStamp,ch_image}) {
         <div className='video_text'>
             <h4>{title}</h4>
             <p>{channel}</p>
-            <p>{views} {timeStamp}</p>
+            <p>{views} · {timeStamp}</p>
         </div>
 
       </div>

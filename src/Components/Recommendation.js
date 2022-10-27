@@ -7,7 +7,14 @@ function Recommendation() {
     <div className='rec'>
      <h2>Recommendations</h2>
     <div className='video_recommendations'>
-      <Videos />
+       <Videos 
+        title = "How Russia's ‘kamikaze’ drones are changing the Ukraine war -....."
+        views = ""
+        timeStamp = ""
+        image = ""
+        channel = ""
+        ch_image = ""
+       />
         <Videos />
         <Videos />
         <Videos />
