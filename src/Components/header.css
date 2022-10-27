@@ -1,6 +1,6 @@
 .logo > img{
     /* height: 25px; */
-    width: 100px;
+    width: 110px;
     object-fit: contain;
     margin-left: 10px;
 }
@@ -48,7 +48,10 @@
     color: #fafafa;
     align-items: center;
     border:1px solid rgb(4, 100, 255) ;
+   
 }
+
+
 
 .all:focus-within > .extra_search{
     visibility: visible;

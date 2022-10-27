@@ -4,8 +4,13 @@
     border-radius: 10px;
     border: 1px solid #000;
     object-fit: contain;
-    
-    /* display: flex; */
+    transition: transform 800ms ease-in;
+}
+
+.Videos :hover{
+    transform: scale(1.2);
+
+
 }
 
 .video_content{

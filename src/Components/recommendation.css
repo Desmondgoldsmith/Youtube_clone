@@ -1,5 +1,5 @@
 .rec{
-    flex: 0.75;
+    flex: 0.8;
     background-color: #000;
     color: #fff;
     font-family: "Roboto","Arial",sans-serif;
@@ -13,6 +13,11 @@
 .video_recommendations{
     display: flex;
     flex-wrap: wrap;
-    
-    /* justify-content: center; */
+    /* transition: transform 300ms ease-in; */
 }
+
+/* .video_recommendations  :hover{
+    transform: scale(1.2);
+    border: 3px solid lime;
+
+} */
