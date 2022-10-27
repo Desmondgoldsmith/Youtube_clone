@@ -3,12 +3,14 @@ import Header from './Components/Header';
 import Sidebar from './Components/Sidebar';
 import Recommendation from './Components/Recommendation';
 import {BrowserRouter ,  Routes , Route} from "react-router-dom"
+import Searchpage from './Components/Searchpage';
 
 function App() {
   return (
     <div className="App">  
      <BrowserRouter> 
             <Header />
+            
       <Routes>
         <Route path = "/" element = {<>
           <div className='side_section'>
@@ -16,7 +18,14 @@ function App() {
             <Recommendation />
           </div>
         </>} />
-        <Route path = "/search" element = {<h1>Search</h1>} />
+        <Route path = "/search/:searchString" element = {
+        <>
+          <div className='side_section'>
+            <Sidebar />
+            <Searchpage />
+          </div>
+        </>
+        } />
       </Routes>
      </BrowserRouter>
 
