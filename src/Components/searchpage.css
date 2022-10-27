@@ -72,3 +72,8 @@
 .searchpage > h4{
     margin: 20px;
 }
+
+.searchpage > .posts{
+    display: flex;
+    flex-wrap: wrap;
+}

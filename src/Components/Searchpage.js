@@ -40,6 +40,37 @@ function Searchpage() {
         tag = "New"
         mainPic = "https://raw.githubusercontent.com/Desmondgoldsmith/Youtube_clone/main/public/vid1.png"
        />
+       <Posts 
+        title = "Make money without coding ..... What you are Not being told !"
+        keyword = "#POST"
+        views = "2K Views"
+        timeStamp = "6 hours ago"
+        image = "https://avatars.githubusercontent.com/u/62439177?s=400&u=4704bfad486fcb109ed0792b728093bdc647372c&v=4"
+        name = "Desmond Goldsmith"
+        tag = "New"
+        mainPic = "https://raw.githubusercontent.com/Desmondgoldsmith/Youtube_clone/main/public/vid%203.png"
+       />
+     
+       <Posts 
+        title = "Gravitas: Inside China's Police Stations Oversees.."
+        keyword = "#POST"
+        views = "2K Views"
+        timeStamp = "6 hours ago"
+        image = "https://avatars.githubusercontent.com/u/62439177?s=400&u=4704bfad486fcb109ed0792b728093bdc647372c&v=4"
+        name = "Desmond Goldsmith"
+        tag = "New"
+        mainPic = "https://raw.githubusercontent.com/Desmondgoldsmith/Youtube_clone/main/public/vid2.png"
+       />
+       <Posts 
+        title = "Evil effects of watching p*rn explained by SADHGURU & ...."
+        keyword = "#POST"
+        views = "2K Views"
+        timeStamp = "6 hours ago"
+        image = "https://avatars.githubusercontent.com/u/62439177?s=400&u=4704bfad486fcb109ed0792b728093bdc647372c&v=4"
+        name = "Desmond Goldsmith"
+        tag = "New"
+        mainPic = "https://raw.githubusercontent.com/Desmondgoldsmith/Youtube_clone/main/public/vid4.png"
+       />
      </div>
     </div>
   )
