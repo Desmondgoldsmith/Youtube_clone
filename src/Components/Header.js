@@ -13,7 +13,9 @@ function Header() {
     <div className = 'header'>
      <div className='logo'>
      <MenuIcon />
-     <img src = "./youtube-logo-removebg-preview.png" alt='youtube logo'/>
+     <Link to="/home">
+           <img className='yt_logo' src = "./youtube-logo-removebg-preview.png" alt='youtube logo'/>
+     </Link>
      </div>
 
      <div className="all">
