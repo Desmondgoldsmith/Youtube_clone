@@ -33,14 +33,22 @@
     outline:none ;
 
 }
+.all > .extra_search{
+    visibility:hidden;
+}
 .all:focus-within{
     width: 50%;
     background-color: #fff;
     color: #000000;
     align-items: center;
     border:1px solid rgb(4, 100, 255) ;
+}
+
+.all:focus-within > .extra_search{
+    visibility: visible;
 
 }
+
 
 
 .searchButton{
