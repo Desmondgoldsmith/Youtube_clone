@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './Components/Header';
 import Sidebar from './Components/Sidebar';
-import Vid_Recommendation from './Components/Vid_Recommendation';
+import Recommendation from './Components/Recommendation';
 
 
 function App() {
@@ -12,8 +12,7 @@ function App() {
       <div className='side_section'>
         {/* sidebar */}
       <Sidebar />
-      <Vid_Recommendation />
-
+      <Recommendation />
       </div>
       
     </div>
