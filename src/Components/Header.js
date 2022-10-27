@@ -19,8 +19,7 @@ function Header() {
                 <input type="text" placeholder='Search'/>
          <SearchIcon className = 'searchButton'/>
 </div>
-        <MicIcon className='mic'/>
-
+     
     {/* icons left section */}
         <div className="left_section">
             <AppsIcon className='left_side_icon' />

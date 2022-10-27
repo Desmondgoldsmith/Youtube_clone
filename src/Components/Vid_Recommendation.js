@@ -4,7 +4,7 @@ import './recommendation.css'
 function Vid_Recommendation() {
   return (
     <div className='rec'>
-    <h1>Video Recommendation goes here</h1>
+    <h2>Recommendations</h2>
     </div>
   )
 }

@@ -1,3 +1,10 @@
 .rec{
     flex: 0.75;
+    background-color: #000;
+    color: #fff;
+}
+
+.rec >h2{
+    margin: 20px;
+
 }
