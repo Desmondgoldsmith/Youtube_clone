@@ -2,12 +2,21 @@ import React from 'react'
 import './recommendation.css'
 import Videos from './Videos'
 import { deepOrange, deepPurple } from '@mui/material/colors';
-
+import { Carousel, ScrollingCarousel } from '@trendyol-js/react-carousel';
+import Carouselitem from './Carouselitem';
 
 function Recommendation() {
   return (
     <div className='rec'>
      <h2>Recommendations</h2>
+     <div className='carousel'>
+    <ScrollingCarousel>
+ 		<Carouselitem />
+		<Carouselitem />
+		<Carouselitem />
+		<Carouselitem />
+	</ScrollingCarousel>
+     </div>
     <div className='video_recommendations'>
        <Videos 
         title = "Russian mercenaries build massive anti-tank defence"

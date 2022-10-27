@@ -16,7 +16,10 @@
 }
 .left_section {
  align-items: center;
- display: flex; 
+ display: flex;  
+cursor: pointer;
+
+
 }
 
 .all{
