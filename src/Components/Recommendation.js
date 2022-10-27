@@ -8,19 +8,61 @@ function Recommendation() {
      <h2>Recommendations</h2>
     <div className='video_recommendations'>
        <Videos 
-        title = "How Russia's ‘kamikaze’ drones are changing the Ukraine war -....."
+        title = "Russian mercenaries build massive anti-tank defence"
+        views = "1.8 million"
+        timeStamp = "4 days ago"
+        image = ""
+        channel = "CNN"
+        ch_image = ""
+       />
+        <Videos 
+          title = "How Russia's ‘kamikaze’ drones are changing the Ukraine war -....."
         views = ""
         timeStamp = ""
         image = ""
         channel = ""
         ch_image = ""
-       />
-        <Videos />
-        <Videos />
-        <Videos />
-        <Videos />
-        <Videos />
-        <Videos />
+        />
+        <Videos 
+          title = "How Russia's ‘kamikaze’ drones are changing the Ukraine war -....."
+        views = ""
+        timeStamp = ""
+        image = ""
+        channel = ""
+        ch_image = ""
+        />
+        <Videos title = "How Russia's ‘kamikaze’ drones are changing the Ukraine war -....."
+        views = ""
+        timeStamp = ""
+        image = ""
+        channel = ""
+        ch_image = "" 
+
+        />
+        {/* <Videos title = "How Russia's ‘kamikaze’ drones are changing the Ukraine war -....."
+        views = ""
+        timeStamp = ""
+        image = ""
+        channel = ""
+        ch_image = ""
+
+        />
+        <Videos  title = "How Russia's ‘kamikaze’ drones are changing the Ukraine war -....."
+        views = ""
+        timeStamp = ""
+        image = ""
+        channel = ""
+        ch_image = ""
+
+        />
+        <Videos 
+          title = "How Russia's ‘kamikaze’ drones are changing the Ukraine war -....."
+        views = ""
+        timeStamp = ""
+        image = ""
+        channel = ""
+        ch_image = ""
+        /> */}
     </div>
    
    
