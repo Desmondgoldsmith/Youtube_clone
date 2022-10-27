@@ -25,31 +25,31 @@ function Recommendation() {
         channel = "Dorian Develops"
         ch_image = ""
         />
-        {/*<Videos 
-          title = "How Russia's ‘kamikaze’ drones are changing the Ukraine war -....."
-        views = ""
-        timeStamp = ""
-        image = ""
-        channel = ""
+        <Videos 
+          title = "Gravitas: Inside China's Police Stations Oversees.."
+        views = "43k views"
+        timeStamp = "6 hours ago"
+        image = "https://raw.githubusercontent.com/Desmondgoldsmith/Youtube_clone/main/public/vid2.png"
+        channel = "WION"
         ch_image = ""
         />
-        <Videos title = "How Russia's ‘kamikaze’ drones are changing the Ukraine war -....."
-        views = ""
-        timeStamp = ""
-        image = ""
-        channel = ""
+        <Videos title = "Evil effects of watching p*rn explained by SADHGURU & ...."
+        views = "1.8M views"
+        timeStamp = "5 months ago"
+        image = "https://raw.githubusercontent.com/Desmondgoldsmith/Youtube_clone/main/public/vid4.png"
+        channel = "BeWithSADHGURU"
         ch_image = "" 
 
-        /> */}
-        {/* <Videos title = "How Russia's ‘kamikaze’ drones are changing the Ukraine war -....."
-        views = ""
-        timeStamp = ""
-        image = ""
-        channel = ""
+        /> 
+         <Videos title = "The best AWS project to get you hired !"
+        views = "35k views"
+        timeStamp = "5 days ago"
+        image = "https://raw.githubusercontent.com/Desmondgoldsmith/Youtube_clone/main/public/vid5.png"
+        channel = "Tech with Lucy"
         ch_image = ""
 
         />
-        <Videos  title = "How Russia's ‘kamikaze’ drones are changing the Ukraine war -....."
+        {/*<Videos  title = "How Russia's ‘kamikaze’ drones are changing the Ukraine war -....."
         views = ""
         timeStamp = ""
         image = ""
