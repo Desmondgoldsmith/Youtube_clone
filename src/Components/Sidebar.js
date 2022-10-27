@@ -17,7 +17,7 @@ function Sidebar() {
         <SidebarRow Icon={<VideoCameraBackIcon/>} title = "Shorts"/>
         <SidebarRow Icon = {<SubscriptionsIcon/>} title = "Subscription"/>
         <hr/>
-        <SidebarRow selected Icon={<VideoLibraryIcon/>} title = "Library" className = "main" />
+        <SidebarRow  Icon={<VideoLibraryIcon/>} title = "Library" className = "main" />
         <SidebarRow Icon={<HistoryIcon/>} title = "History"/>
         <SidebarRow Icon = {<OndemandVideoIcon/>} title = "Your video"/>
         <SidebarRow Icon = {<WatchLaterIcon/>} title = "Watch later"/>
