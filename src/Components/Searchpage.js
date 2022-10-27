@@ -21,11 +21,14 @@ function Searchpage() {
             <p>50k subscribers ⋅ 200 Videos </p>
             <p>Official Youtube Account</p>
         </div>
+        <div className='subscribe'>
+            <button>subscribe</button>
+        </div>
 
      </div>
      <hr/>
      <div className='posts'>
-        
+
      </div>
     </div>
   )
