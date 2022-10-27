@@ -35,6 +35,7 @@
 
 .selected{
     background-color: rgb(35, 35, 35);
+    border-radius: 8px;
 }
 .selected .MuiSvgIcon-root{
     color: red;
