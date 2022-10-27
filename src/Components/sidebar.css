@@ -1,6 +1,6 @@
 .sidebar{
     flex: 0.2;
-    background-color: #000000;
+    background-color: rgb(15, 15, 15);
     color: #f1f1f1;
     font-family: "Roboto","Arial",sans-serif;
     font-weight: lighter;
