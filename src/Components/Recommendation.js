@@ -49,11 +49,11 @@ function Recommendation() {
         ch_image = ""
 
         />
-        {/*<Videos  title = "How Russia's ‘kamikaze’ drones are changing the Ukraine war -....."
-        views = ""
-        timeStamp = ""
-        image = ""
-        channel = ""
+        <Videos  title = "NSMQ2022 WINNERS: CONGRATULATIONS...."
+        views = "730 views"
+        timeStamp = "6 hours ago"
+        image = "https://raw.githubusercontent.com/Desmondgoldsmith/Youtube_clone/main/public/vid6.png"
+        channel = "Monkey Desert"
         ch_image = ""
 
         />
@@ -64,7 +64,7 @@ function Recommendation() {
         image = ""
         channel = ""
         ch_image = ""
-        /> */}
+        /> 
     </div>
    
    
