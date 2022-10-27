@@ -11,7 +11,10 @@ function App() {
             <Header />
       <Routes>
         <Route path = "/" element = {<>
-        <h1>Home</h1>
+          <div className='side_section'>
+            <Sidebar />
+            <Recommendation />
+          </div>
         </>} />
         <Route path = "/search" element = {<h1>Search</h1>} />
       </Routes>

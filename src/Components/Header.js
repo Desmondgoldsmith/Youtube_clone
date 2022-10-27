@@ -13,17 +13,15 @@ function Header() {
     <div className = 'header'>
      <div className='logo'>
      <MenuIcon />
-     <Link to="/home">
+     <Link to="/">
            <img className='yt_logo' src = "./youtube-logo-removebg-preview.png" alt='youtube logo'/>
      </Link>
      </div>
 
      <div className="all">
         <SearchIcon className = 'extra_search'/>
-                <input type="text" onChange={e => setSearch(e.target.value)} value={search} placeholder='Search'/>
-         <Link to={`/search/${search}`} relative="path">
+                <input type="text"  placeholder='Search'/>
          <SearchIcon className = 'searchButton'/>
-    </Link>        
 </div>
      
     {/* icons left section */}
