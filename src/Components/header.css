@@ -22,7 +22,7 @@
     border: 1px solid #121212;
     height: 50px;
     border-radius: 20px;
-    border: 1px solid #1c1b1b;
+    border: 1px solid #2e2e2e;
 }
 .all > input{
     height: 46px;
@@ -33,7 +33,8 @@
     background-color: #000000;
     color: #fafafa;
     padding-left: 2px;
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: 500;
 
 }
 .all > .extra_search{
@@ -42,8 +43,8 @@
     opacity: 0.6;
 }
 .all:focus-within{
-    width: 48%;
-    background-color: #0e0e0e;
+    width: 50%;
+    background-color: #000000;
     color: #fafafa;
     align-items: center;
     border:1px solid rgb(4, 100, 255) ;
@@ -51,6 +52,7 @@
 
 .all:focus-within > .extra_search{
     visibility: visible;
+    width: 50px;
 
 }
 
@@ -59,29 +61,32 @@
  color: #fafafa;
 }
 
-.mic_{
+/* .mic_{
     background-color: #1c1c1c;
     border-radius: 40px;
     padding: 10px;
     align-items: center;
-}
+} */
 
 
 
 .searchButton{
-    width: 40px!important;
-    height: 45.5px!important;
-    background-color: #1c1c1c;
+    width: 70px!important;
+    height: 45.9px!important;
+    background-color: #181717;
     border-left: 1px #1c1c1c;
     color:gray;
     border-radius: 0px 20px 20px 0px;
-    cursor: pointer;
-    
+    cursor: pointer; 
+}
+
+.searchButton > .MuiSvgIcon-root{
+    font-size: 10px!important;
 }
 
 
 .left_side_icon{
-    margin-right: 10px;
+    margin-right: 20px;
 } 
 
 
