@@ -7,3 +7,9 @@
 .rec >h2{
     margin: 20px;
 }
+
+.video_recommendations{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
