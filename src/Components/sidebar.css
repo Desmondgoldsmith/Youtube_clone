@@ -24,7 +24,7 @@
     background-color: rgb(35, 35, 35);
     cursor: pointer;
     border-radius: 5px;
-    width: 200px;
+    width: 220px;
 }
 .sidebar :hover > .side_icon{
    color: red;
