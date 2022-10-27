@@ -23,7 +23,7 @@
 .sidebar :hover{
     background-color: rgb(35, 35, 35);
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 220px;
 }
 .sidebar :hover > .side_icon{
@@ -35,7 +35,7 @@
 
 .selected{
     background-color: rgb(35, 35, 35);
-    border-radius: 8px;
+    border-radius: 10px;
     width: 220px;
 }
 .selected .MuiSvgIcon-root{
