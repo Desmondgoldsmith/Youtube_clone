@@ -2,9 +2,23 @@
     .yt_logo{
         /* height: 25px; */
         width: 70px!important;
-        
+    } 
+    .all{
+        width: 30%!important;
+    }  
+
+    .all > input{
+        font-size: 12px !important
+    }
+   
+
+    .all:focus-within{
+        width: 40% !important;
+    }
+    .all:focus-within > .extra_search{
+        width: 20px !important;
     
-    }   
+    }
 }
 
 .yt_logo{
