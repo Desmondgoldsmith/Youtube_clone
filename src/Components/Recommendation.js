@@ -3,6 +3,7 @@ import './recommendation.css'
 import Videos from './Videos'
 import { deepOrange, deepPurple } from '@mui/material/colors';
 import { Carousel } from '@farfetch/react-carousel';
+import '@farfetch/react-carousel/styles.css'
 
 
 
