@@ -4,28 +4,6 @@ import Videos from './Videos'
 import { deepOrange, deepPurple } from '@mui/material/colors';
 
 
-
-const  data_carousel = [
-   {
-     text : "All"
-   },
-   {
-     text : "Gaming"
-   },
-   {
-     text : "Fixes"
-   },
-   {
-     text : "Music"
-   },
-   {
-     text : "News"
-   },
-   {
-     text : "Comedy"
-   },
-]
-
 function Recommendation() {
  
   return (
