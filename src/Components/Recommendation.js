@@ -2,7 +2,7 @@ import React from 'react'
 import './recommendation.css'
 import Videos from './Videos'
 import { deepOrange, deepPurple } from '@mui/material/colors';
-import { Carousel } from '@farfetch/react-carousel';
+import { Carousel, SwipeSlider, Bullets } from '@farfetch/react-carousel';
 import '@farfetch/react-carousel/styles.css'
 
 
