@@ -1,4 +1,4 @@
-import Reactfrom 'react'
+import React from 'react'
 import './recommendation.css'
 import Videos from './Videos'
 import { deepOrange, deepPurple } from '@mui/material/colors';
