@@ -4,29 +4,44 @@
         width: 70px!important;
     } 
     .all{
-        width: 30%!important;
+        width: 40%!important;
+        margin-left: -20px;
+        height: 30px !important;
     }  
 
     .all > input{
-        font-size: 12px !important
+        font-size: 12px !important;
+        width: 50px !important;
+        height: 28px !important;
+
     }
    
 
     .all:focus-within{
-        width: 33% !important;
+        width: 42% !important;
     }
     .all:focus-within > .extra_search{
         width: 20px !important;
     
     }
     .searchButton{
-        width: 20px  ;
+        width: 20px !important;
+        display: none !important;
     }
 
     .header{
         padding: 2px !important;
         width: 100vw !important;
     }
+
+    .clear_r{
+        display: none;
+    }
+
+    .left_side_icon{
+        margin-right: 2px !important;
+    } 
+    
 }
 
 .yt_logo{
