@@ -127,11 +127,11 @@ cursor: pointer;
     outline: 0;
 }
 
-/* if textbox placeholder is not shown then display the clear button */
+/* if textbox placeholder is not shown then display the clear icon */
  .input_text:not(:placeholder-shown) ~ .clear_r{
   visibility: visible;
 }
-
+/* if placeholder is shown then hide icon  */
 .input_text:placeholder-shown ~ .clear_r {
   visibility: hidden;
 }
