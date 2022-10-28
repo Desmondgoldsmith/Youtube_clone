@@ -142,12 +142,15 @@ cursor: pointer;
     background-color: red;
     color: #fff;
     padding: 2px;
-    height: 20px;
+    height: 19px;
     width: 24px;
-    margin-left:-22px ;
+    margin-left:-29px ;
     border-radius: 20px;
     text-align: center;
     position: relative;
     font-weight: bold;
-  
+    border: none;
+    font-family: "Roboto","Arial",sans-serif;
+
+   
 }

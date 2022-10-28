@@ -39,7 +39,7 @@ function Header() {
             <AppsIcon className='left_side_icon' />
             <VideoCallIcon className='left_side_icon'/>
             <div className='not'>            
-            <NotificationsIcon className='left_side_icon'/><span className='badge'>6</span>
+            <NotificationsIcon className='left_side_icon'/><span className='badge'>6+</span>
         </div>
             <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Circle-icons-profile.svg" alt = 'user' className='user_image'></img>
 
