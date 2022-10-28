@@ -1,5 +1,6 @@
 import React from 'react'
 import './posts.css'
+import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 function Posts({title,keyword,views,timeStamp,image,name,tag,mainPic}) {
   return (
@@ -8,7 +9,7 @@ function Posts({title,keyword,views,timeStamp,image,name,tag,mainPic}) {
         <img src={mainPic} alt = {title}/>
       </div>
       <div className='content'>
-       <h2>{title}</h2>
+       <h2>{title} </h2>
        <h3>{keyword}</h3>
        <p>{views}⋅{timeStamp}</p>
        <p><img src={image}/>{name}</p>

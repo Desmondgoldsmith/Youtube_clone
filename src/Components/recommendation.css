@@ -8,6 +8,11 @@
 .video_recommendations{
     display: flex;
     flex-wrap: wrap !important;
+
+}
+
+.video_recommendations :hover{
+    
 }
 
 
