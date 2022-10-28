@@ -1,6 +1,5 @@
 import React from 'react'
 import './posts.css'
-import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 function Posts({title,keyword,views,timeStamp,image,name,tag,mainPic}) {
   return (
