@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{Component} from 'react'
 import './recommendation.css'
 import Videos from './Videos'
 import { deepOrange, deepPurple } from '@mui/material/colors';
@@ -7,25 +7,46 @@ import "~slick-carousel/slick/slick-theme.css";
 
 
 
-const handleAfterChange = (e) => {
-  console.log(e.index);
-  console.log(e.dir);
-};
 
-function Recommendation() {
+export default class Recommendation extends Component{
+  render() {
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    };
+
   return (
     <div className='rec'>
      <h2>Recommendations</h2>
      {/* <Carouselitem/> */}
-     <Carousel className={ Style.container } isInfinite isRTL itemsToShow={ 2 } onAfterChange={ handleAfterChange }>
-        <SwipeSlider className={ Style.slider } disableSwipe hasKeysNavigation>
-            <div className={ Style.customItem }>Item 1</div>
-            <div className={ Style.moreCustomItem }>Item 2</div>
-            <div>Item 3</div>
-            <div>Item 4</div>
-            <div>Item 5</div>
-        </SwipeSlider>
-    </Carousel>
+     <div>
+        <h2> Single Item</h2>
+        <Slider {...settings}>
+          <div>
+            <h3>1</h3>
+          </div>
+          <div>
+            <h3>2</h3>
+          </div>
+          <div>
+            <h3>3</h3>
+          </div>
+          <div>
+            <h3>4</h3>
+          </div>
+          <div>
+            <h3>5</h3>
+          </div>
+          <div>
+            <h3>6</h3>
+          </div>
+        </Slider>
+      </div>
+     {/* end */}
+     
     <div className='video_recommendations'>
        <Videos 
         title = "Russian mercenaries build massive anti-tank defence"
