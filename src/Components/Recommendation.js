@@ -4,6 +4,7 @@ import Videos from './Videos'
 import { deepOrange, deepPurple } from '@mui/material/colors';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 
 
