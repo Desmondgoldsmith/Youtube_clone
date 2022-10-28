@@ -7,7 +7,11 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 
-
+const  data_carousel = [
+   {
+     text : "All"
+   },
+]
 
 export default class Recommendation extends Component{
   render() {
