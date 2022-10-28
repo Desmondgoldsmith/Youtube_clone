@@ -2,8 +2,8 @@ import React,{Component} from 'react'
 import './recommendation.css'
 import Videos from './Videos'
 import { deepOrange, deepPurple } from '@mui/material/colors';
-import "~slick-carousel/slick/slick.css"; 
-import "~slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 
 
@@ -108,7 +108,7 @@ export default class Recommendation extends Component{
    
    
     </div>
-  )
+  );
 }
 }
 // export default Recommendation
