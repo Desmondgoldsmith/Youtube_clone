@@ -2,6 +2,8 @@ import React from 'react'
 import './recommendation.css'
 import Videos from './Videos'
 import { deepOrange, deepPurple } from '@mui/material/colors';
+import { Carousel } from '@farfetch/react-carousel';
+
 
 
 function Recommendation() {
