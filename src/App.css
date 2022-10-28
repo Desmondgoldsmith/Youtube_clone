@@ -2,14 +2,8 @@
   margin: 0;
   padding:0;
   box-sizing: border-box;
-  overflow-x: hidden !important; 
 }
 
 .side_section{
   display: flex;
-}
-
-body{
-  overflow-x: hidden !important; 
-
 }
