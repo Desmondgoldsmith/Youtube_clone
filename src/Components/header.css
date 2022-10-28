@@ -139,5 +139,8 @@ cursor: pointer;
 .not > .badge{
     background-color: red;
     color: #fff;
-    padding: 10px;
+    padding: 3px;
+    margin-left:-20px ;
+    border-radius: 20px;
+  
 }
