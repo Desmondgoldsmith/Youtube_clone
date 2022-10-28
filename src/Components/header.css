@@ -135,3 +135,9 @@ cursor: pointer;
 .input_text:placeholder-shown ~ .clear_r {
   visibility: hidden;
 }
+
+.not > .badge{
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+}
