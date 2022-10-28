@@ -111,4 +111,4 @@ export default class Recommendation extends Component{
   )
 }
 
-export default Recommendation
+// export default Recommendation
