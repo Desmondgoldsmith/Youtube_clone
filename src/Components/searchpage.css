@@ -11,6 +11,10 @@
     .subscribe>button{
         width: 93px !important;
       }
+
+  .details >p{
+    font-size: 12px !important;
+}
 }
 .searchpage{
     flex: 0.8;
