@@ -1,3 +1,19 @@
+@media only screen and (max-width: 414px) {
+    .image > img{
+        
+        height: 100px;
+        width: 146px !important;
+    }
+    .content > p > img{
+        width: 30px !important;
+    }
+
+    .posts{
+        max-width: 500px !important;
+    }
+    
+}
+
 .posts{
     display: flex;
     font-family: "Roboto","Arial",sans-serif;
