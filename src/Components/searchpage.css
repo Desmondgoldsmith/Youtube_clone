@@ -7,6 +7,10 @@
         border-radius: 50%;
         width: 80px !important;
     }
+   
+    .subscribe>button{
+        width: 93px !important;
+      }
 }
 .searchpage{
     flex: 0.8;
