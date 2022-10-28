@@ -91,7 +91,7 @@ cursor: pointer;
 }
 
 .searchButton > .MuiSvgIcon-root{
-    font-size: 10px!important;
+    font-size: 5px!important;
 }
 
 
@@ -137,6 +137,7 @@ cursor: pointer;
 }
 .not{
     display: flex;
+    margin-right: 10px;
 }
 .not > .badge{
     background-color: red;
@@ -148,7 +149,7 @@ cursor: pointer;
     border-radius: 20px;
     text-align: center;
     position: relative;
-    font-weight: bold;
+    font-weight: lighter;
     border: none;
     font-family: "Roboto","Arial",sans-serif;
 

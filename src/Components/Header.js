@@ -32,7 +32,7 @@ function Header() {
          <Link to={`/search/${search}`}>
               <SearchIcon className = 'searchButton'/>
           </Link>
-</div>
+   </div>
      
     {/* icons left section */}
         <div className="left_section">
