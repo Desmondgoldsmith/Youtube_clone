@@ -13,7 +13,7 @@ function Header() {
   const [search,setSearch] = useState("");
 
   const handleClick = () => {
-    // 👇️ clear input value
+    //clear input value
     setSearch('');
   };
   return (
