@@ -26,7 +26,7 @@
     }
     .searchButton{
         width: 20px !important;
-        display: none !important;
+        /* display: none !important; */
     }
 
     .header{
@@ -41,6 +41,18 @@
     .left_side_icon{
         margin-right: 2px !important;
     } 
+    
+
+    .not > .badge{
+       
+        height: 15px !important;
+        width: 20px !important;
+        margin-left:-18px !important ;
+        border-radius: 10px !important;
+        
+    
+       
+    }
     
 }
 

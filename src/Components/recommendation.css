@@ -1,3 +1,8 @@
+@media only screen and (max-width: 414px) {
+    .rec{
+        flex: 0.9 !important;
+    }
+}
 .rec{
     flex: 0.8;
     background-color: rgb(13, 13, 13);
@@ -12,7 +17,7 @@
 }
 
 .video_recommendations :hover{
-    
+
 }
 
 
