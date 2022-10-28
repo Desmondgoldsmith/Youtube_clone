@@ -110,5 +110,5 @@ export default class Recommendation extends Component{
     </div>
   )
 }
-
+}
 // export default Recommendation
