@@ -45,9 +45,11 @@ export default class Recommendation extends Component{
      <div>
         <h2> Single Item</h2>
         <Slider {...settings}>
-          {data_carousel.map((data_carousel) => {
+          {data_carousel.map((data_carousels) => {
             return(
-              
+              <div>
+                <h3 className='single'>{data_carousels.text}</h3>
+              </div>
             )
           })}
         </Slider>
