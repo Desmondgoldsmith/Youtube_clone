@@ -11,6 +11,21 @@ const  data_carousel = [
    {
      text : "All"
    },
+   {
+     text : "Gaming"
+   },
+   {
+     text : "Fixes"
+   },
+   {
+     text : "Music"
+   },
+   {
+     text : "News"
+   },
+   {
+     text : "Comedy"
+   },
 ]
 
 export default class Recommendation extends Component{
