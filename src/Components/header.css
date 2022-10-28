@@ -135,12 +135,19 @@ cursor: pointer;
 .input_text:placeholder-shown ~ .clear_r {
   visibility: hidden;
 }
-
+.not{
+    display: flex;
+}
 .not > .badge{
     background-color: red;
     color: #fff;
-    padding: 3px;
-    margin-left:-20px ;
+    padding: 2px;
+    height: 20px;
+    width: 24px;
+    margin-left:-22px ;
     border-radius: 20px;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
   
 }
