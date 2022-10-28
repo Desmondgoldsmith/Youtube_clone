@@ -2,16 +2,30 @@ import React from 'react'
 import './recommendation.css'
 import Videos from './Videos'
 import { deepOrange, deepPurple } from '@mui/material/colors';
-import { Carousel, SwipeSlider, Bullets } from '@farfetch/react-carousel';
-import '@farfetch/react-carousel/styles.css'
+import "~slick-carousel/slick/slick.css"; 
+import "~slick-carousel/slick/slick-theme.css";
 
 
+
+const handleAfterChange = (e) => {
+  console.log(e.index);
+  console.log(e.dir);
+};
 
 function Recommendation() {
   return (
     <div className='rec'>
      <h2>Recommendations</h2>
      {/* <Carouselitem/> */}
+     <Carousel className={ Style.container } isInfinite isRTL itemsToShow={ 2 } onAfterChange={ handleAfterChange }>
+        <SwipeSlider className={ Style.slider } disableSwipe hasKeysNavigation>
+            <div className={ Style.customItem }>Item 1</div>
+            <div className={ Style.moreCustomItem }>Item 2</div>
+            <div>Item 3</div>
+            <div>Item 4</div>
+            <div>Item 5</div>
+        </SwipeSlider>
+    </Carousel>
     <div className='video_recommendations'>
        <Videos 
         title = "Russian mercenaries build massive anti-tank defence"

@@ -43,4 +43,5 @@ function App() {
 }
 
 export default App;
-//npm install react-router-dom@6
+//npm install react-slick --save
+// npm install slick-carousel --save
