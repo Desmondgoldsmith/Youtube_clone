@@ -118,3 +118,20 @@ cursor: pointer;
 .search {
     display: flex;
 }
+
+.clear_r{
+   display: flex;
+    align-self: center;
+    cursor: pointer ;
+    background-color:  transparent;
+    outline: 0;
+}
+
+
+ .input_text:not(:placeholder-shown) ~ .clear_r{
+  visibility: visible;
+}
+
+.input_text:placeholder-shown ~ .clear_r {
+  visibility: hidden;
+}
