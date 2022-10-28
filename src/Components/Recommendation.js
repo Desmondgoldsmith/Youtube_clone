@@ -33,7 +33,7 @@ function Recommendation() {
         timeStamp = "6 hours ago"
         image = "https://raw.githubusercontent.com/Desmondgoldsmith/Youtube_clone/main/public/vid2.png"
         channel = "WION"
-        ch_image = ""
+        ch_image = "https://avatars.githubusercontent.com/u/62439177?s=400&u=4704bfad486fcb109ed0792b728093bdc647372c&v=4"
         />
         <Videos title = "Evil effects of watching p*rn explained by SADHGURU & ...."
         views = "1.8M views"
@@ -48,7 +48,7 @@ function Recommendation() {
         timeStamp = "5 days ago"
         image = "https://raw.githubusercontent.com/Desmondgoldsmith/Youtube_clone/main/public/vid5.png"
         channel = "Tech with Lucy"
-        ch_image = ""
+        ch_image = "https://avatars.githubusercontent.com/u/62439177?s=400&u=4704bfad486fcb109ed0792b728093bdc647372c&v=4"
 
         />
         <Videos  title = "NSMQ2022 WINNERS: CONGRATULATIONS...."
@@ -56,7 +56,7 @@ function Recommendation() {
         timeStamp = "6 hours ago"
         image = "https://raw.githubusercontent.com/Desmondgoldsmith/Youtube_clone/main/public/vid6.png"
         channel = "Monkey Desert"
-        ch_image = ""
+        ch_image = "https://avatars.githubusercontent.com/u/62439177?s=400&u=4704bfad486fcb109ed0792b728093bdc647372c&v=4"
 
         />
         <Videos 

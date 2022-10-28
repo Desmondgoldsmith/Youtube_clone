@@ -1,3 +1,12 @@
+@media only screen and (max-width: 414px) {
+    .yt_logo{
+        /* height: 25px; */
+        width: 70px!important;
+        
+    
+    }   
+}
+
 .yt_logo{
     /* height: 25px; */
     width: 110px;
