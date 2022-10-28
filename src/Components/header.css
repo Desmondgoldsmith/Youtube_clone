@@ -26,8 +26,7 @@
     }
     .searchButton{
         width: 20px !important;
-        /* display: none !important; */
-    }
+        }
 
     .header{
         padding: 2px !important;
