@@ -1,6 +1,6 @@
 @media only screen and (max-width: 414px) {
     .sidebar{
-        flex: 0.1!important;
+        flex: 0.1 !important;
         width: 50px!important;
 
     }
