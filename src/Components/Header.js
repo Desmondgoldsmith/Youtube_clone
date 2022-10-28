@@ -22,8 +22,8 @@ function Header() {
 
      <div className="all">
         <SearchIcon className = 'extra_search'/>
-                <input className="input_text" type="text" onChange={e=>setSearch(e.target.value)} value={search }  placeholder='Search'/>
-                <CloseIcon className="clear_r"/>
+                <input className="input_text" type="text" id='input_text' onChange={e=>setSearch(e.target.value)} value={search }  placeholder='Search'/>
+                <CloseIcon onclick="document.getElementById('input_text').value = ''" className="clear_r"/>
          <Link to={`/search/${search}`}>
               <SearchIcon className = 'searchButton'/>
           </Link>
