@@ -1,10 +1,8 @@
-import React,{Component} from 'react'
+import Reactfrom 'react'
 import './recommendation.css'
 import Videos from './Videos'
 import { deepOrange, deepPurple } from '@mui/material/colors';
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+
 
 
 const  data_carousel = [
@@ -28,33 +26,11 @@ const  data_carousel = [
    },
 ]
 
-export default class Recommendation extends Component{
-  render() {
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    };
-
+function Recommendation() {
+ 
   return (
     <div className='rec'>
      <h2>Recommendations</h2>
-     {/* <Carouselitem/> */}
-     <div>
-        <h2> Single Item</h2>
-        <Slider {...settings}>
-          {data_carousel.map((data_carousels) => {
-            return(
-              <div>
-                <h3 className='single'>{data_carousels.text}</h3>
-              </div>
-            )
-          })}
-        </Slider>
-      </div>
-     {/* end */}
      
     <div className='video_recommendations'>
        <Videos 
@@ -119,5 +95,5 @@ export default class Recommendation extends Component{
     </div>
   );
 }
-}
-// export default Recommendation
+
+export default Recommendation
