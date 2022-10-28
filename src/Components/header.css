@@ -28,6 +28,7 @@ cursor: pointer;
     height: 50px;
     border-radius: 20px;
     border: 1px solid #2e2e2e;
+
 }
 .all > input{
     height: 46px;
@@ -40,6 +41,7 @@ cursor: pointer;
     padding-left: 2px;
     font-size: 15px;
     font-weight: 500;
+
 
 }
 .all > .extra_search{
@@ -88,10 +90,12 @@ cursor: pointer;
     border-radius: 0px 20px 20px 0px;
     cursor: pointer; 
     margin-top: 1.8px;
+    
+
 }
 
 .searchButton > .MuiSvgIcon-root{
-    font-size: 5px!important;
+    font-size: 20px!important;
 }
 
 
