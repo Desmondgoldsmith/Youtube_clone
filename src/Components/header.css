@@ -13,11 +13,19 @@
    
 
     .all:focus-within{
-        width: 40% !important;
+        width: 33% !important;
     }
     .all:focus-within > .extra_search{
         width: 20px !important;
     
+    }
+    .searchButton{
+        width: 20px  ;
+    }
+
+    .header{
+        padding: 2px !important;
+        width: 100vw !important;
     }
 }
 
