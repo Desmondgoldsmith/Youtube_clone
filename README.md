@@ -1,3 +1,17 @@
+# CLONE THIS REPO
+## git clone https://github.com/Desmondgoldsmith/Youtube_clone.git
+
+# IMPORTANT PACKAGES
+ ## npm install react-slick --save
+ ## npm install slick-carousel --save
+
+# VIDEO
+https://user-images.githubusercontent.com/62439177/198937987-f43f3565-bbf3-49bc-83aa-b27305028bab.mov
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
